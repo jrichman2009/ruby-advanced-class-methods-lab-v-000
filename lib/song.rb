@@ -38,6 +38,8 @@ class Song
       return self.find_by_name(name)
     else
       return self.create_by_name(name)
+    end
+  end
 
 
 
